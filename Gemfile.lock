@@ -374,6 +374,8 @@ GEM
       warden (~> 1.2.3)
     devise-i18n (1.9.4)
       devise (>= 4.7.1)
+    devise-security (0.16.0)
+      devise (>= 4.3.0, < 5.0)
     devise_invitable (1.7.5)
       actionmailer (>= 4.1.0)
       devise (>= 4.0.0)
@@ -888,6 +890,7 @@ DEPENDENCIES
   decidim-dev!
   decidim-navbar_links!
   decidim-term_customizer!
+  devise-security
   dotenv-rails
   faker (~> 1.8)
   fog-aws
