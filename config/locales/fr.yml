@@ -18,12 +18,25 @@ fr:
         name: Formulaire de vérification d'identité
       osp_authorization_workflow:
         name: Procédure d'autorisation
+    devise:
+      registrations:
+        new:
+          password_help: |-
+            %{minimun_characters} caractères minimum, <br/>
+            doit contenir au moins 1 minuscule, 1 majuscule, 1 chiffre et un caractère spécial, <br/>
+            et doit être différent de votre pseudo et de votre email.
     verifications:
       authorizations:
         first_login:
           actions:
             osp_authorization_handler: Vérifier avec le formulaire de vérification de l'identité
             osp_authorization_workflow: Vérifier avec le formulaire de vérification de l'identité
+    passwords:
+      edit:
+        password_help: |-
+          %{minimun_characters} caractères minimum, <br/>
+          doit contenir au moins 1 minuscule, 1 majuscule, 1 chiffre, 1 caractère spécial, <br/>
+          et doit être différent de votre pseudo et de votre email.
   layouts:
     decidim:
       footer:
