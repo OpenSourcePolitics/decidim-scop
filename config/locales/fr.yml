@@ -31,6 +31,18 @@ fr:
           actions:
             osp_authorization_handler: Vérifier avec le formulaire de vérification de l'identité
             osp_authorization_workflow: Vérifier avec le formulaire de vérification de l'identité
+  devise:
+    mailer:
+      invitation_instructions:
+        accept: Accepter l'invitation
+        accept_until: Cette invitation expirera le %{due_date}.
+        decline: Refuser l'invitation
+        hello: Bonjour %{email},
+        ignore: |-
+          Votre compte ne sera pas créé avant d'avoir cliqué sur le lien ci-dessus et défini votre pseudonyme et votre mot de passe.<br /><br />
+        someone_invited_you: |-
+          Scopelec vous a invité en tant qu’utilisateur de sa plateforme participative. Vous pouvez accepter cette invitation grâce au lien suivant.
+        subject: Vous avez été invité à participer sur la plateforme participative de Scopelec
     passwords:
       edit:
         password_help: |-

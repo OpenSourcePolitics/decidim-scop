@@ -1,4 +1,5 @@
 ## OVERRIDES
+- app/assets/stylesheets/decidim/email.css
 - app/commands/decidim/create_registration.rb
 - app/commands/decidim/update_account.rb
 - app/views/decidim/account/_password_fields.html.erb
