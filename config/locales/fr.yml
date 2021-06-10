@@ -7,6 +7,12 @@ fr:
         document_number: Numéro unique
         postal_code: Code postal
         birthday: Date de naissance
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              not_authorized: ne fait pas partie de la liste des adresses autorisées
   decidim:
     authorization_handlers:
       osp_authorization_handler:
